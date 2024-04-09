@@ -58,4 +58,5 @@ COPY --from=unrar /usr/bin/unrar-alpine /usr/bin/unrar
 
 # ports and volumes
 EXPOSE 8000
-VOLUME /config
+VOLUME ~/pyload/config:/config
+VOLUME ~/media/downloads:/downloads
